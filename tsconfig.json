@@ -1,0 +1,28 @@
+{
+    "$schema": "https://json.schemastore.org/tsconfig",
+    "display": "Default",
+    "compilerOptions": {
+        "composite": false,
+        "declaration": true,
+        "declarationMap": true,
+        "esModuleInterop": true,
+        "forceConsistentCasingInFileNames": true,
+        "inlineSources": false,
+        "isolatedModules": true,
+        "noUnusedLocals": false,
+        "noUnusedParameters": false,
+        "preserveWatchOutput": true,
+        "skipLibCheck": true,
+        "strict": true,
+        "allowSyntheticDefaultImports": false,
+        "jsx": "react-jsx",
+        "lib": ["DOM", "ES2020", "DOM.Iterable"],
+        "module": "ESNext",
+        "target": "ES2020",
+        "useDefineForClassFields": true,
+        "moduleResolution": "Bundler",
+        "resolveJsonModule": true,
+        "noEmit": true
+    },
+    "exclude": ["node_modules"]
+}
